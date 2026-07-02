@@ -1,0 +1,606 @@
+[02Jul2026 20:13:42.422] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Jul2026 20:13:42.429] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[02Jul2026 20:13:44.742] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Jul2026 20:13:45.010] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Dr-stone/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Jul2026 20:13:45.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Dr-stone/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2026 20:13:45.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Dr-stone/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2026 20:13:45.615] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Dr-stone/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2026 20:13:45.617] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Dr-stone/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Jul2026 20:13:46.294] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[02Jul2026 20:13:51.004] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Jul2026 20:13:51.315] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Jul2026 20:13:51.468] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[02Jul2026 20:13:51.862] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.58+mc1.20.1: 110 options available, 0 override(s) found
+[02Jul2026 20:13:51.866] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[02Jul2026 20:13:51.917] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[02Jul2026 20:13:52.657] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jul2026 20:13:56.857] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
+[02Jul2026 20:13:56.859] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
+[02Jul2026 20:13:56.992] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[02Jul2026 20:13:56.993] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[02Jul2026 20:13:57.301] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key)
+[02Jul2026 20:13:57.491] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[02Jul2026 20:13:59.093] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (20.76 s after launch)
+[02Jul2026 20:13:59.863] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[02Jul2026 20:13:59.867] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[02Jul2026 20:14:04.470] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5319 milliseconds
+[02Jul2026 20:14:09.088] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[02Jul2026 20:14:10.140] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:180]: curiosIntegration not found in the [common.backpackSettings] section.
+[02Jul2026 20:14:11.002] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.7.2 initializing! Commit hash: 7c1a21e3a4edbd6b5f1301f82a8bfbeb5fdb1444 on Create version: 6.0.8 on platform: Forge
+[02Jul2026 20:14:12.732] [modloading-worker-0/INFO] [pneumaticcraft/]: Thirdparty integration activated for [jei,patchouli,create]
+[02Jul2026 20:14:13.635] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[02Jul2026 20:14:13.635] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[02Jul2026 20:14:14.586] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
+[02Jul2026 20:14:14.606] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.8 initializing! Commit hash: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+[02Jul2026 20:14:14.766] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[02Jul2026 20:14:15.956] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[02Jul2026 20:14:16.182] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[02Jul2026 20:14:16.183] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[02Jul2026 20:14:16.812] [modloading-worker-0/INFO] [toughasnails/]: Serene Seasons detected. Enabling season modifier.
+[02Jul2026 20:14:17.653] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[02Jul2026 20:14:17.662] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:track_signal in minecraft:block_entity_type
+[02Jul2026 20:14:17.667] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:track_signal_source in create:display_source
+[02Jul2026 20:14:17.668] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:copycat in minecraft:block_entity_type
+[02Jul2026 20:14:17.668] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:conductor_vent in minecraft:block
+[02Jul2026 20:14:17.668] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.672] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.672] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.673] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.673] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.673] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.673] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.676] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:brown_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.677] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.678] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:brown_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.678] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.678] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:brown_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:maroon_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:maroon_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:maroon_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:red_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.682] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:red_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.683] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.683] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:red_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.686] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.687] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:vermilion_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.687] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.688] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:vermilion_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.688] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.690] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:vermilion_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.690] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.690] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:orange_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.690] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.690] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:orange_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.691] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.691] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:orange_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.692] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.692] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:granite_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.692] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.692] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:granite_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.692] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.693] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:granite_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.693] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:dripstone_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:dripstone_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:dripstone_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.695] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:ochrum_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.696] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.696] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:ochrum_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.696] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.697] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:ochrum_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.697] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.697] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:yellow_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:yellow_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:yellow_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:chartreuse_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:chartreuse_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.700] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:chartreuse_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:olive_green_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:olive_green_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:olive_green_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.701] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.702] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:lime_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.702] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.702] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:lime_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.703] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.703] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:lime_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:green_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:green_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:green_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:pine_green_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.706] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:pine_green_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:pine_green_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:cyan_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.707] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:cyan_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.708] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.708] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:cyan_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.708] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.709] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:sea_green_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.709] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.709] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:sea_green_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.710] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.710] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:sea_green_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.710] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.710] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:turquoise_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.710] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:turquoise_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:turquoise_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:light_blue_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:light_blue_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:light_blue_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:blue_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:blue_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.712] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.713] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:blue_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.713] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:royal_blue_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:royal_blue_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:royal_blue_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.715] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:purple_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.716] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.716] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:purple_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.716] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.717] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:purple_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.717] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.717] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:magenta_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.718] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.718] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:magenta_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.718] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.718] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:magenta_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.719] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.719] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:pink_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.719] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.771] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:pink_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.772] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.775] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:pink_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.775] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.775] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:white_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.776] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.776] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:white_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.776] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.777] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:white_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.780] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.780] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:diorite_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.780] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.780] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:diorite_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.780] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.780] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:diorite_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.781] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.781] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:limestone_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.782] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.782] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:limestone_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.783] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.783] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:limestone_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.784] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.784] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:light_gray_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.786] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.786] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:light_gray_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.786] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.786] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:light_gray_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.786] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.787] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:tuff_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.787] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.787] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:tuff_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.787] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.787] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:tuff_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.787] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.788] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:gray_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.789] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.789] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:gray_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.789] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.789] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:gray_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.791] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.791] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:scorchia_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.791] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.791] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:scorchia_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.791] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.791] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:scorchia_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.792] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:flywheel in minecraft:block_entity_type
+[02Jul2026 20:14:17.792] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:black_locometal_flywheel in minecraft:block
+[02Jul2026 20:14:17.792] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.794] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:black_sliding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.794] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for create:sliding_door in minecraft:block_entity_type
+[02Jul2026 20:14:17.794] [modloading-worker-0/INFO] [Railways/MultiRegistryCallback/]: Registering callback for railways:black_folding_locometal_door in minecraft:block
+[02Jul2026 20:14:17.810] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[02Jul2026 20:14:17.811] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[02Jul2026 20:14:17.814] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[02Jul2026 20:14:17.815] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[02Jul2026 20:14:17.816] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[02Jul2026 20:14:17.861] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[02Jul2026 20:14:17.862] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[02Jul2026 20:14:17.864] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[02Jul2026 20:14:17.865] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[02Jul2026 20:14:18.014] [modloading-worker-0/WARN] [com.oitsjustjose.natprog.NatProg/]: Dynamic saw repair material TagKey[minecraft:item / forge:ingots/copper] could not be found. Defaulting to Bedrock
+[02Jul2026 20:14:18.017] [modloading-worker-0/WARN] [com.oitsjustjose.natprog.NatProg/]: Dynamic saw repair material TagKey[minecraft:item / forge:ingots/bronze] could not be found. Defaulting to Bedrock
+[02Jul2026 20:14:18.018] [modloading-worker-0/WARN] [com.oitsjustjose.natprog.NatProg/]: Dynamic saw repair material TagKey[minecraft:item / forge:ingots/steel] could not be found. Defaulting to Bedrock
+[02Jul2026 20:14:18.093] [modloading-worker-0/INFO] [com.oitsjustjose.natprog.NatProg/]: [net.minecraftforge.registries.RegistryObject@6a2079ad, net.minecraftforge.registries.RegistryObject@6e051e5d, net.minecraftforge.registries.RegistryObject@efd2df00, net.minecraftforge.registries.RegistryObject@38bda030, net.minecraftforge.registries.RegistryObject@3459431, net.minecraftforge.registries.RegistryObject@595521f, net.minecraftforge.registries.RegistryObject@74c98b91, net.minecraftforge.registries.RegistryObject@e6f048e5, net.minecraftforge.registries.RegistryObject@58f31914, net.minecraftforge.registries.RegistryObject@27b913a3, net.minecraftforge.registries.RegistryObject@c236d691, net.minecraftforge.registries.RegistryObject@b596410c, net.minecraftforge.registries.RegistryObject@48ed4d6b, net.minecraftforge.registries.RegistryObject@13864e48, net.minecraftforge.registries.RegistryObject@e8e5a5e2, net.minecraftforge.registries.RegistryObject@2cc1dc34, net.minecraftforge.registries.RegistryObject@d8903f04, net.minecraftforge.registries.RegistryObject@1bcce395, net.minecraftforge.registries.RegistryObject@b6fb6ae5, net.minecraftforge.registries.RegistryObject@4b3a61f9, net.minecraftforge.registries.RegistryObject@fa05037f, net.minecraftforge.registries.RegistryObject@45c410c4, net.minecraftforge.registries.RegistryObject@ac8e8b0c, net.minecraftforge.registries.RegistryObject@a7d61c7a, net.minecraftforge.registries.RegistryObject@75aba277, net.minecraftforge.registries.RegistryObject@22f2d747, net.minecraftforge.registries.RegistryObject@33464a66, net.minecraftforge.registries.RegistryObject@2820ec38, net.minecraftforge.registries.RegistryObject@ab6611c6, net.minecraftforge.registries.RegistryObject@6dd136e3, net.minecraftforge.registries.RegistryObject@96b091f4, net.minecraftforge.registries.RegistryObject@4470f406]
+[02Jul2026 20:14:19.030] [main/INFO] [Cold Sweat/]: Gathering Cold Sweat registries
+[02Jul2026 20:14:19.031] [main/INFO] [Cold Sweat/]: The event bus was started early to gather Cold Sweat registries; it will now be stopped again until the correct loading phase.
+[02Jul2026 20:14:19.529] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on cold_sweat.mixin.json:MixinRegistration::handler$beb000$loadRegistryContents exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02Jul2026 20:14:23.335] [main/INFO] [Moonlight/]: Initialized block sets in 34ms
+[02Jul2026 20:14:23.405] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:locometal_flywheel
+[02Jul2026 20:14:23.405] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:brown_locometal_flywheel
+[02Jul2026 20:14:23.405] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:maroon_locometal_flywheel
+[02Jul2026 20:14:23.406] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:red_locometal_flywheel
+[02Jul2026 20:14:23.406] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:vermilion_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:orange_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:granite_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:dripstone_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:ochrum_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:yellow_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:chartreuse_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:olive_green_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:lime_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:green_locometal_flywheel
+[02Jul2026 20:14:23.407] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:pine_green_locometal_flywheel
+[02Jul2026 20:14:23.408] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:cyan_locometal_flywheel
+[02Jul2026 20:14:23.408] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:sea_green_locometal_flywheel
+[02Jul2026 20:14:23.408] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:turquoise_locometal_flywheel
+[02Jul2026 20:14:23.409] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:light_blue_locometal_flywheel
+[02Jul2026 20:14:23.409] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:blue_locometal_flywheel
+[02Jul2026 20:14:23.409] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:royal_blue_locometal_flywheel
+[02Jul2026 20:14:23.409] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:purple_locometal_flywheel
+[02Jul2026 20:14:23.409] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:magenta_locometal_flywheel
+[02Jul2026 20:14:23.409] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:pink_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:white_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:diorite_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:limestone_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:light_gray_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:tuff_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:gray_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:scorchia_locometal_flywheel
+[02Jul2026 20:14:23.410] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:flywheel and railways:black_locometal_flywheel
+[02Jul2026 20:14:23.414] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:sliding_locometal_door
+[02Jul2026 20:14:23.415] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:folding_locometal_door
+[02Jul2026 20:14:23.415] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:brown_sliding_locometal_door
+[02Jul2026 20:14:23.415] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:brown_folding_locometal_door
+[02Jul2026 20:14:23.415] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:maroon_sliding_locometal_door
+[02Jul2026 20:14:23.415] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:maroon_folding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:red_sliding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:red_folding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:vermilion_sliding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:vermilion_folding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:orange_sliding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:orange_folding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:granite_sliding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:granite_folding_locometal_door
+[02Jul2026 20:14:23.416] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:dripstone_sliding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:dripstone_folding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:ochrum_sliding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:ochrum_folding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:yellow_sliding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:yellow_folding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:chartreuse_sliding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:chartreuse_folding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:olive_green_sliding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:olive_green_folding_locometal_door
+[02Jul2026 20:14:23.417] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:lime_sliding_locometal_door
+[02Jul2026 20:14:23.418] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:lime_folding_locometal_door
+[02Jul2026 20:14:23.418] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:green_sliding_locometal_door
+[02Jul2026 20:14:23.418] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:green_folding_locometal_door
+[02Jul2026 20:14:23.418] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:pine_green_sliding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:pine_green_folding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:cyan_sliding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:cyan_folding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:sea_green_sliding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:sea_green_folding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:turquoise_sliding_locometal_door
+[02Jul2026 20:14:23.419] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:turquoise_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:light_blue_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:light_blue_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:blue_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:blue_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:royal_blue_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:royal_blue_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:purple_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:purple_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:magenta_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:magenta_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:pink_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:pink_folding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:white_sliding_locometal_door
+[02Jul2026 20:14:23.420] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:white_folding_locometal_door
+[02Jul2026 20:14:23.421] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:diorite_sliding_locometal_door
+[02Jul2026 20:14:23.421] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:diorite_folding_locometal_door
+[02Jul2026 20:14:23.421] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:limestone_sliding_locometal_door
+[02Jul2026 20:14:23.421] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:limestone_folding_locometal_door
+[02Jul2026 20:14:23.422] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:light_gray_sliding_locometal_door
+[02Jul2026 20:14:23.422] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:light_gray_folding_locometal_door
+[02Jul2026 20:14:23.422] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:tuff_sliding_locometal_door
+[02Jul2026 20:14:23.422] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:tuff_folding_locometal_door
+[02Jul2026 20:14:23.423] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:gray_sliding_locometal_door
+[02Jul2026 20:14:23.423] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:gray_folding_locometal_door
+[02Jul2026 20:14:23.426] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:scorchia_sliding_locometal_door
+[02Jul2026 20:14:23.426] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:scorchia_folding_locometal_door
+[02Jul2026 20:14:23.426] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:black_sliding_locometal_door
+[02Jul2026 20:14:23.427] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:sliding_door and railways:black_folding_locometal_door
+[02Jul2026 20:14:23.427] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:copycat and railways:conductor_vent
+[02Jul2026 20:14:23.935] [main/INFO] [Railways/MultiRegistryCallback/]: Running callback for create:track_signal and railways:track_signal_source
+[02Jul2026 20:14:23.935] [main/INFO] [Railways/MultiRegistryCallback/]: Running finalizers
+[02Jul2026 20:14:24.631] [modloading-worker-0/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[02Jul2026 20:14:24.648] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[02Jul2026 20:14:24.940] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[02Jul2026 20:14:24.942] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[02Jul2026 20:14:24.942] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[02Jul2026 20:14:24.943] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[02Jul2026 20:14:24.943] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of toughasnails:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 4
+[02Jul2026 20:14:24.945] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of toughasnails:water_canteen for Water (Fluid Amount Required: 200) with the ID 5
+[02Jul2026 20:14:24.945] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of toughasnails:water for Water (Fluid Amount Required: 1000) with the ID 6
+[02Jul2026 20:14:24.952] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23166!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23166!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[02Jul2026 20:14:24.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pneumaticcraft] Starting version check at https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/1.20.1/release_info.json
+[02Jul2026 20:14:25.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pneumaticcraft] Found status: AHEAD Current: 6.0.22+mc1.20.1 Target: null
+[02Jul2026 20:14:25.019] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Jul2026 20:14:25.050] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[02Jul2026 20:14:25.062] [main/INFO] [Moonlight/]: Initialized color sets in 88ms
+[02Jul2026 20:14:25.072] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02Jul2026 20:14:25.074] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[02Jul2026 20:14:25.076] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[02Jul2026 20:14:25.076] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[02Jul2026 20:14:25.076] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[02Jul2026 20:14:25.076] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[02Jul2026 20:14:25.076] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[02Jul2026 20:14:25.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[02Jul2026 20:14:25.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Starting version check at https://raw.githubusercontent.com/talhanation/smallships/main/update.json
+[02Jul2026 20:14:25.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Found status: UP_TO_DATE Current: 2.0.0-b1.4 Target: null
+[02Jul2026 20:14:25.421] [modloading-worker-0/INFO] [pneumaticcraft/]: Sending IMC messages.
+[02Jul2026 20:14:25.644] [modloading-worker-0/INFO] [STDOUT/]: [com.mrh0.createaddition.CreateAddition:postInit:136]: Create Crafts & Additions Initialized!
+[02Jul2026 20:14:25.704] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at me.desht.pneumaticcraft.common.thirdparty.waila.WailaRegistration
+[02Jul2026 20:14:25.726] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[02Jul2026 20:14:25.766] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[02Jul2026 20:14:25.771] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[02Jul2026 20:14:25.773] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.petrolpark.compat.jade.PetrolparkJade
+[02Jul2026 20:14:26.626] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Jul2026 20:14:27.310] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Dr-stone/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
+[02Jul2026 20:14:27.311] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Dr-stone/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
+[02Jul2026 20:14:27.696] [main/INFO] [com.simibubi.create.Create/]: Created 326 recipes which will be injected into the game
+[02Jul2026 20:14:27.716] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[02Jul2026 20:14:27.991] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [spelunkery]: [com.ordana.spelunkery.loot_modifiers.ModLootOverrides@7b27731e]
+[02Jul2026 20:14:27.994] [main/INFO] [Moonlight/]: Generating runtime assets for pack Spelunkery Generated Pack (spelunkery)
+[02Jul2026 20:14:28.107] [main/INFO] [com.ordana.spelunkery.Spelunkery/]: Generated runtime SERVER_DATA for pack Spelunkery Generated Pack (spelunkery) in: 112 ms (multithreaded)
+[02Jul2026 20:14:28.108] [main/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 113 ms
+[02Jul2026 20:14:30.029] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/temp_region cold_sweat:cold_sweat/world/temp_region/compat/default_aether.json: required mods not met
+[02Jul2026 20:14:30.040] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit.json: required mods not met
+[02Jul2026 20:14:30.040] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit_boots.json: required mods not met
+[02Jul2026 20:14:30.041] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit_helmet.json: required mods not met
+[02Jul2026 20:14:30.041] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/jet_suit/jet_suit_pants.json: required mods not met
+[02Jul2026 20:14:30.042] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_boots.json: required mods not met
+[02Jul2026 20:14:30.042] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_helmet.json: required mods not met
+[02Jul2026 20:14:30.043] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_pants.json: required mods not met
+[02Jul2026 20:14:30.043] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/netherite_space_suit/netherite_space_suit.json: required mods not met
+[02Jul2026 20:14:30.043] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_boots.json: required mods not met
+[02Jul2026 20:14:30.044] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_helmet.json: required mods not met
+[02Jul2026 20:14:30.044] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_pants.json: required mods not met
+[02Jul2026 20:14:30.045] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/ad_astra/space_suit/space_suit.json: required mods not met
+[02Jul2026 20:14:30.046] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_boots.json: required mods not met
+[02Jul2026 20:14:30.046] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_helmet.json: required mods not met
+[02Jul2026 20:14:30.047] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_leggings.json: required mods not met
+[02Jul2026 20:14:30.049] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/aquamirae/three_bolt_suit.json: required mods not met
+[02Jul2026 20:14:30.072] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/create_sa/netherite_jetpack_chestplate.json: required mods not met
+[02Jul2026 20:14:30.073] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/irons_spells/fireward_ring.json: required mods not met
+[02Jul2026 20:14:30.073] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:item/insulator cold_sweat:cold_sweat/item/insulator/irons_spells/frostward_ring.json: required mods not met
+[02Jul2026 20:14:30.074] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:entity/entity_temp cold_sweat:cold_sweat/entity/entity_temp/boatload/furnace_boat.json: required mods not met
+[02Jul2026 20:14:30.076] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:entity/entity_temp cold_sweat:cold_sweat/entity/entity_temp/soul_fire_d/on_normal_fire.json: required mods not met
+[02Jul2026 20:14:30.076] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:entity/entity_temp cold_sweat:cold_sweat/entity/entity_temp/soul_fire_d/on_soul_fire.json: required mods not met
+[02Jul2026 20:14:30.081] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/glacio.json: required mods not met
+[02Jul2026 20:14:30.083] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/mars.json: required mods not met
+[02Jul2026 20:14:30.084] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/mercury.json: required mods not met
+[02Jul2026 20:14:30.084] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/moon.json: required mods not met
+[02Jul2026 20:14:30.085] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/orbit.json: required mods not met
+[02Jul2026 20:14:30.085] [main/INFO] [Cold Sweat/]: Skipping registration of cold_sweat:world/dimension_temp cold_sweat:cold_sweat/world/dimension_temp/adastra/venus.json: required mods not met
+[02Jul2026 20:14:33.465] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.492] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:magmatic_stone: mod not loaded
+[02Jul2026 20:14:33.493] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/magmatic_stone as it's serializer returned null
+[02Jul2026 20:14:33.513] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/dumplings: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cooking'
+[02Jul2026 20:14:33.530] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/hydrogen as it's serializer returned null
+[02Jul2026 20:14:33.551] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/vegetable_noodles: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cooking'
+[02Jul2026 20:14:33.555] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:saw/cherry_log_to_stripped_cherry_log: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_log'
+[02Jul2026 20:14:33.556] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/mushroom_rice: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cooking'
+[02Jul2026 20:14:33.566] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.572] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/cofh_refined_fuel as it's serializer returned null
+[02Jul2026 20:14:33.586] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.591] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:cryptic_campfire: mod not loaded
+[02Jul2026 20:14:33.591] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/cryptic_campfire as it's serializer returned null
+[02Jul2026 20:14:33.593] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.598] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:ancient_emerald_ice: mod not loaded
+[02Jul2026 20:14:33.598] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/betterendforge/ancient_emerald_ice as it's serializer returned null
+[02Jul2026 20:14:33.599] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:boric_campfire: mod not loaded
+[02Jul2026 20:14:33.599] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/boric_campfire as it's serializer returned null
+[02Jul2026 20:14:33.601] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/noodle_soup: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cooking'
+[02Jul2026 20:14:33.604] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block occultism:spirit_fire: mod not loaded
+[02Jul2026 20:14:33.604] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/occultism/spirit_fire as it's serializer returned null
+[02Jul2026 20:14:33.604] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block powah:dry_ice: mod not loaded
+[02Jul2026 20:14:33.604] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/powah/dry_ice as it's serializer returned null
+[02Jul2026 20:14:33.607] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:axe/stripped_cherry_wood_to_cherry_planks: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_wood'
+[02Jul2026 20:14:33.611] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:dense_emerald_ice: mod not loaded
+[02Jul2026 20:14:33.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/betterendforge/dense_emerald_ice as it's serializer returned null
+[02Jul2026 20:14:33.632] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/bone_broth: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cooking'
+[02Jul2026 20:14:33.634] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.636] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.637] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block decorative_blocks:brazier: mod not loaded
+[02Jul2026 20:14:33.637] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/decorative_blocks/brazier as it's serializer returned null
+[02Jul2026 20:14:33.643] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block decorative_blocks:soul_brazier: mod not loaded
+[02Jul2026 20:14:33.646] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/decorative_blocks/soul_brazier as it's serializer returned null
+[02Jul2026 20:14:33.647] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:saw/cherry_wood_to_stripped_cherry_wood: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_wood'
+[02Jul2026 20:14:33.649] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:radiation_shield_mekanism as it's serializer returned null
+[02Jul2026 20:14:33.659] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:shepherds_pie_block: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:shepherds_pie_block'
+[02Jul2026 20:14:33.668] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/cofh_tree_oil as it's serializer returned null
+[02Jul2026 20:14:33.686] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:drone_interface as it's serializer returned null
+[02Jul2026 20:14:33.712] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:barbecue_stick: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:barbecue_stick'
+[02Jul2026 20:14:33.713] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:stuffed_potato: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:stuffed_potato'
+[02Jul2026 20:14:33.716] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block natura:nether_heat_sand: mod not loaded
+[02Jul2026 20:14:33.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/natura/nether_heat_sand as it's serializer returned null
+[02Jul2026 20:14:33.731] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block valhelsia_structures:brazier: mod not loaded
+[02Jul2026 20:14:33.731] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/valhelsia_structures/brazier as it's serializer returned null
+[02Jul2026 20:14:33.779] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/ethylene as it's serializer returned null
+[02Jul2026 20:14:33.790] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:saw/stripped_cherry_wood_to_cherry_planks: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_wood'
+[02Jul2026 20:14:33.793] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block mekanism:block_uranium: mod not loaded
+[02Jul2026 20:14:33.793] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/mekanism/uranium as it's serializer returned null
+[02Jul2026 20:14:33.797] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:pneumaticcraft_fuels/cofh_creosote as it's serializer returned null
+[02Jul2026 20:14:33.808] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.812] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:emerald_ice: mod not loaded
+[02Jul2026 20:14:33.812] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/betterendforge/emerald_ice as it's serializer returned null
+[02Jul2026 20:14:33.814] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.824] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:one_probe_crafting as it's serializer returned null
+[02Jul2026 20:14:33.831] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:cryptic_magma_block: mod not loaded
+[02Jul2026 20:14:33.831] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/byg/cryptic_magma as it's serializer returned null
+[02Jul2026 20:14:33.835] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block botania:blaze_block: mod not loaded
+[02Jul2026 20:14:33.837] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/botania/blaze_block as it's serializer returned null
+[02Jul2026 20:14:33.838] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:cherry_planks: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_log'
+[02Jul2026 20:14:33.866] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block immersiveengineering:storage_uranium: mod not loaded
+[02Jul2026 20:14:33.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/immersiveengineering/uranium as it's serializer returned null
+[02Jul2026 20:14:33.868] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block quark:permafrost: mod not loaded
+[02Jul2026 20:14:33.868] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/quark/permafrost as it's serializer returned null
+[02Jul2026 20:14:33.868] [main/INFO] [pneumaticcraft/]: ignoring heat properties for block quark:blaze_lantern: mod not loaded
+[02Jul2026 20:14:33.868] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe pneumaticcraft:block_heat_properties/quark/blaze_lantern as it's serializer returned null
+[02Jul2026 20:14:33.869] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:hamburger: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:beef_patty'
+[02Jul2026 20:14:33.871] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[02Jul2026 20:14:33.877] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:axe/stripped_cherry_log_to_cherry_planks: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_log'
+[02Jul2026 20:14:33.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 38 recipes
+[02Jul2026 20:14:34.336] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:story/mine_stone: Task Advancement{parentId=minecraft:totally_not_possible, display=null, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2793676b}, criteria={impossible=net.minecraft.advancements.Criterion@383a5cc7}, requirements=[[impossible]], sends_telemetry_event=false}
+[02Jul2026 20:14:34.338] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement spelunkery:spelunkery/wooden_rail: Task Advancement{parentId=minecraft:story/mine_stone, display=net.minecraft.advancements.DisplayInfo@4ef76c1a, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2793676b}, criteria={item=net.minecraft.advancements.Criterion@2441dd67}, requirements=[[item]], sends_telemetry_event=false}
+[02Jul2026 20:14:34.338] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement spelunkery:spelunkery/coal_lump: Task Advancement{parentId=minecraft:story/mine_stone, display=net.minecraft.advancements.DisplayInfo@29a5c644, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2793676b}, criteria={item=net.minecraft.advancements.Criterion@3258cf2}, requirements=[[item]], sends_telemetry_event=false}
+[02Jul2026 20:14:34.339] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement spelunkery:spelunkery/rock_salt: Task Advancement{parentId=minecraft:story/mine_stone, display=net.minecraft.advancements.DisplayInfo@5889e1ed, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2793676b}, criteria={item=net.minecraft.advancements.Criterion@77e4b412}, requirements=[[item]], sends_telemetry_event=false}
+[02Jul2026 20:14:34.339] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:story/upgrade_tools: Task Advancement{parentId=minecraft:totally_not_possible, display=null, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2793676b}, criteria={impossible=net.minecraft.advancements.Criterion@39953300}, requirements=[[impossible]], sends_telemetry_event=false}
+[02Jul2026 20:14:34.339] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4820 advancements
+[02Jul2026 20:14:34.344] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4832 advancements
+[02Jul2026 20:14:34.487] [main/WARN] [ModernFix/]: Initial datapack load took 6.676 s
+[02Jul2026 20:14:34.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Jul2026 20:14:34.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Jul2026 20:14:34.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Jul2026 20:14:34.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Jul2026 20:14:34.879] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Jul2026 20:14:35.066] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Jul2026 20:14:35.240] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Jul2026 20:14:35.241] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Jul2026 20:14:35.241] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Jul2026 20:14:35.241] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Jul2026 20:14:35.279] [Server thread/INFO] [Cold Sweat/]: Loading registries from configs...
+[02Jul2026 20:14:35.283] [Server thread/INFO] [Cold Sweat/]: Loading registries from data resources...
+[02Jul2026 20:14:35.295] [Server thread/INFO] [Cold Sweat/]: Handling registry modifiers...
+[02Jul2026 20:14:35.298] [Server thread/INFO] [Cold Sweat/]: Loaded 1 insulators: [cold_sweat:create/netherite_backtank]
+[02Jul2026 20:14:35.301] [Server thread/INFO] [Cold Sweat/]: Loaded 0 fuels.
+[02Jul2026 20:14:35.302] [Server thread/INFO] [Cold Sweat/]: Loaded 0 foods.
+[02Jul2026 20:14:35.305] [Server thread/INFO] [Cold Sweat/]: Loaded 0 item temperatures.
+[02Jul2026 20:14:35.306] [Server thread/INFO] [Cold Sweat/]: Loaded 0 drying items.
+[02Jul2026 20:14:35.312] [Server thread/INFO] [Cold Sweat/]: Loaded 0 insulation slots configs.
+[02Jul2026 20:14:35.315] [Server thread/INFO] [Cold Sweat/]: Loaded 0 block temperatures.
+[02Jul2026 20:14:35.317] [Server thread/INFO] [Cold Sweat/]: Loaded 0 biome temperatures.
+[02Jul2026 20:14:35.317] [Server thread/INFO] [Cold Sweat/]: Loaded 0 dimension temperatures.
+[02Jul2026 20:14:35.322] [Server thread/INFO] [Cold Sweat/]: Loaded 0 structure temperatures.
+[02Jul2026 20:14:35.338] [Server thread/INFO] [Cold Sweat/]: Loaded 1 depth temperatures: [cold_sweat:default]
+[02Jul2026 20:14:35.346] [Server thread/INFO] [Cold Sweat/]: Loaded 1 insulated mounts: [cold_sweat:strider]
+[02Jul2026 20:14:35.349] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity spawn biomes.
+[02Jul2026 20:14:35.354] [Server thread/INFO] [Cold Sweat/]: Loaded 2 entity temperatures: [cold_sweat:furnace_minecart, cold_sweat:on_fire]
+[02Jul2026 20:14:35.358] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity climates.
+[02Jul2026 20:14:35.360] [Server thread/INFO] [Cold Sweat/]: Loaded 2 temp effects: [cold_sweat:default_entity, cold_sweat:default_player]
+[02Jul2026 20:14:35.364] [Server thread/INFO] [Cold Sweat/]: Loading TOML configs...
+[02Jul2026 20:14:35.381] [Server thread/ERROR] [Cold Sweat/]: Error parsing config: worldgen/biome "biomesoplenty:clover_patch" does not exist
+[02Jul2026 20:14:35.383] [Server thread/ERROR] [Cold Sweat/]: Error parsing minecraft:worldgen/biome config "[biomesoplenty:clover_patch, 56, 78, F]"
+[02Jul2026 20:14:35.477] [Server thread/INFO] [Cold Sweat/]: Loading BlockTemps...
+[02Jul2026 20:14:36.453] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jul2026 20:14:36.464] [Server thread/INFO] [spark/]: Starting background profiler...
+[02Jul2026 20:14:38.073] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[02Jul2026 20:14:38.074] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[02Jul2026 20:14:38.074] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Jul2026 20:14:38.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Jul2026 20:14:42.316] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.319] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.319] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.320] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.320] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.320] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.321] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.321] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:42.791] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jul2026 20:14:43.760] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4970 ms
+[02Jul2026 20:14:43.760] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.486s)! For help, type "help"
+[02Jul2026 20:14:43.866] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Jul2026 20:14:43.906] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[02Jul2026 20:14:43.919] [Server thread/WARN] [ModernFix/]: Dedicated server took 65.589 seconds to load
+[02Jul2026 20:14:49.492] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/GuiGraphics for invalid dist DEDICATED_SERVER
+[02Jul2026 20:14:49.698] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xSubaru_x[/127.239.84.23:52791] logged in with entity id 146 at (98.47432186580532, 64.0, -1623.290668549953)
+[02Jul2026 20:14:49.832] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player xSubaru_x
+[02Jul2026 20:14:49.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x joined the game
+[02Jul2026 20:14:50.103] [Server thread/INFO] [Jade/]: Syncing config to xSubaru_x (11f5927f-1498-32b2-8611-613d99818d66)
+[02Jul2026 20:14:51.755] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2183ms or 43 ticks behind
+[02Jul2026 20:14:54.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elwaza10[/127.4.212.212:52463] logged in with entity id 287 at (94.14054841815435, 64.875, -1620.6726311754176)
+[02Jul2026 20:14:54.215] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player elwaza10
+[02Jul2026 20:14:54.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 joined the game
+[02Jul2026 20:14:54.397] [Server thread/INFO] [Jade/]: Syncing config to elwaza10 (8939096c-6362-3026-bcb9-6a354a08184f)
+[02Jul2026 20:15:09.566] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2844ms or 56 ticks behind
+[02Jul2026 20:16:04.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [Let's Torque About Tools]
+[02Jul2026 20:16:04.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [You spin me right round]
+[02Jul2026 20:23:16.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [What a Deal!]
+[02Jul2026 20:24:16.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [Craft basic backpack]
+[02Jul2026 20:28:26.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 was doomed to fall by Elephant
+[02Jul2026 20:29:04.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [Take Aim]
+[02Jul2026 20:29:33.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [The First Explosion (of many?)]
+[02Jul2026 20:32:33.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [Pull the lever, Conk!]
+[02Jul2026 20:35:03.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [Black Gold]
+[02Jul2026 20:36:26.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [Tunnel Treasures]
+[02Jul2026 20:36:29.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [Not a Jigsaw]
+[02Jul2026 20:36:56.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elwaza10: Teleported elwaza10 to xSubaru_x]
+[02Jul2026 20:37:15.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [Tunnel Treasures]
+[02Jul2026 20:41:42.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [A Diamond in the Rough]
+[02Jul2026 20:41:42.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [That's Rough, Buddy]
+[02Jul2026 20:42:16.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [That's Rough, Buddy]
+[02Jul2026 20:43:31.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [The First Explosion (of many?)]
+[02Jul2026 20:43:36.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elwaza10: Teleported elwaza10 to xSubaru_x]
+[02Jul2026 20:43:52.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [Totally Tubular Transfer]
+[02Jul2026 20:44:49.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x has made the advancement [Pull the lever, Conk!]
+[02Jul2026 20:45:51.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 was killed
+[02Jul2026 20:45:51.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xSubaru_x: Killed elwaza10]
+[02Jul2026 20:45:54.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xSubaru_x: Teleported xSubaru_x to elwaza10]
+[02Jul2026 20:46:57.890] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xSubaru_x moved too quickly! -0.2526955087355418,-10.596058325307382,-0.560113030788898
+[02Jul2026 20:46:58.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSubaru_x fell from a high place
+[02Jul2026 20:50:02.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xSubaru_x: Set own game mode to Creative Mode]
+[02Jul2026 20:50:14.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elwaza10 has made the advancement [You Vandal!]
+[02Jul2026 20:50:22.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xSubaru_x> tienes que tirarla y desppues darle click con el mechero o si no se apga por la lluvia
